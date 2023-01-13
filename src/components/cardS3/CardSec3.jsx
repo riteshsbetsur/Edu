@@ -13,7 +13,6 @@ const CardSec3 = () => {
   return (
     <section className={Styles.cardSec1}>
       <h2>Trending </h2>
-      <h3>Current Trending </h3>
       <article className={Styles.cardSub1}>
         <div className={Styles.card1}>
           <Card sx={{ maxWidth: 250 }}>

@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alegreya&family=Alfa+Slab+One&family=Barlow&family=Carter+One&family=Heebo:wght@300;400;500;800&family=Lato&family=Monoton&family=Montserrat:wght@400;500&family=Orbitron:wght@500&family=Oswald:wght@300&family=Philosopher:ital@1&family=Rubik+Dirt&family=Secular+One&display=swap");
+
+.tableSection {
+  /* position: relative; */
+  width: 100vw;
+  height: 100%;
+}
+
+.tableArticle {
+  position: absolute;
+  width: 70vw;
+  left: 23%;
+top:  12%;
+}     
+
+.tableArticle h2 {
+  padding-bottom: 20px;
+  font-family: "Heebo", sans-serif;
+  color: grey;
+  font-size: 32px;
+  letter-spacing: 1.01px;
+}
+
+

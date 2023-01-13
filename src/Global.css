@@ -1,0 +1,55 @@
+*{
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+}
+
+/* Spinner Block */
+#spinnerBlock {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#spinnerBlock svg {
+  width: 100px;
+  overflow: visible;
+}
+#spinnerBlock svg circle {
+  stroke: var(--base-color);
+  transform-origin: 50px 50px;
+  animation: spin 1.2s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+/* #app-root {
+  height: 10em;
+  width: 10em;
+  background: lightblue;
+  overflow: hidden;
+}
+
+#modal-root {
+  position: relative;
+  z-index: 999;
+}
+
+.modal {
+  background-color: rgba(0,0,0,0.5);
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */

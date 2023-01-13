@@ -1,0 +1,188 @@
+@import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alegreya&family=Alfa+Slab+One&family=Barlow&family=Carter+One&family=Heebo:wght@300;800&family=Lato&family=Monoton&family=Montserrat:wght@400;500&family=Orbitron:wght@500&family=Oswald:wght@300&family=Philosopher:ital@1&family=Rubik+Dirt&family=Secular+One&display=swap);
+
+#AdminDashBoardBlock {
+  width: 100%;
+  /* height: 74vh; */
+}
+#AdminDashBoardBlock article {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  /* height: 74vh; */
+}
+/* #DashBlock {
+  position: absolute;
+  height: 91.5vh;
+  width: 19%;
+  flex-basis: 20%;
+  background-color: rgb(56, 56, 62);
+  color: white;
+  align-items: center;
+  font-family: "Heebo", sans-serif;
+}
+.AdminBlockSideBar {
+  margin: 20px;
+}
+.AdminBlockSideBar aside h2 {
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-size: 24px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid white;
+}
+.DashItems {
+  width: auto;
+}
+
+.DashItems ul li {
+  padding: 10px;
+  font-weight: bold;
+  text-transform: capitalize;
+  width: auto;
+  list-style: none;
+} */
+/* 
+.DashItems ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+}
+
+.DashItems ul li a:hover {
+  color: black;
+  background-color: white;
+  padding: 0px 50px 5px;
+} */
+/* .adminBlockMainBlock {
+  flex-basis: 80%;
+  background-color: cadetblue;
+}
+
+.AdminBlockSideBar aside h2 {
+  margin-top: 15px;
+  font-size: 25px;
+  letter-spacing: 1px;
+}
+.AdminBlockSideBar aside ul {
+  list-style-type: none;
+}
+.AdminBlockSideBar aside ul li {
+  padding: 8px 10px 8px 20px;
+  background-color: white;
+  margin-top: 15px;
+  border-radius: 10px;
+  color: beige;
+}
+.AdminBlockSideBar aside ul li:hover {
+  background-color: white;
+
+  color: black;
+}
+
+.AdminBlockSideBar aside ul li a {
+  color: rgb(255, 255, 255);
+  letter-spacing: 1px;
+  text-decoration: none;
+  width: auto;
+}
+
+.AdminBlockSideBar aside ul li a:hover {
+  color: black;
+  background-color: white;
+} */
+
+/* !----------------- */
+/* .sidebarProfile ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+.sidebarProfile ul li a {
+  width: 100%;
+  padding: 14px;
+  background-color: #fff;
+  margin: 0px 0;
+  display: block;
+  text-decoration: none;
+  color: #673ab7;
+  border-bottom: 1px solid #ccc;
+  text-transform: capitalize;
+  transition: ease all 0.7s;
+  text-align: center;
+  font-weight: 900;
+  font-size: larger;
+}
+.sidebarProfile ul li a:hover {
+  background-color: #3f51b5;
+} */
+
+/* !============New Dashboard-============ */
+
+.adminSidebar {
+  background-color: rgb(45, 45, 49);
+  color: white;
+  padding: 20px;
+  flex-basis: 20%;
+  width: 20%;
+  height: 91vh;
+  position: relative;
+  font-family: "Heebo", sans-serif;
+}
+
+.adminSidebar h2{
+    text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-size: 24px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid white;
+}
+
+Main{
+  padding-top: 20px;
+}
+
+
+
+.adminMain {
+  background-color: #f0f4f7;
+  padding: 20px;
+  flex-basis: 80%;
+  font-family: "Heebo", sans-serif;
+}
+
+.adminSidebar nav a,
+.adminSidebar main a {
+  justify-content: start;
+  text-decoration: none;
+  display: flex;
+  gap: 10px;
+  height: 30px;
+  color: white;
+  align-items: center;
+  font-weight: 100;
+  padding: 21px 10px;
+  font-size: 18px;
+  font-family: "Heebo", sans-serif;
+}
+
+.icons {
+  font-size: 20px;
+  position: relative;
+  top: 2px;
+}
+
+.adminSidebar nav a:hover,
+.adminSidebar main a:hover {
+  border-radius: 5px;
+  color: black;
+  background-color: white;
+}
+
+.sideFooter{
+  position: absolute;
+  bottom: 0;
+  font-size: small;
+  font-weight: 100;
+  color: rgb(222, 222, 222);
+  letter-spacing: 1.02px;
+}

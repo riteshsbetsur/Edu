@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alegreya&family=Alfa+Slab+One&family=Barlow&family=Carter+One&family=Heebo:wght@300;400;500;800&family=Lato&family=Monoton&family=Montserrat:wght@400;500&family=Orbitron:wght@500&family=Oswald:wght@300&family=Philosopher:ital@1&family=Rubik+Dirt&family=Secular+One&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alegreya&family=Alfa+Slab+One&family=Barlow&family=Carter+One&family=Heebo:wght@300;800&family=Lato&family=Monoton&family=Montserrat:wght@400;500&family=Orbitron:wght@500&family=Oswald:wght@300&family=Philosopher:ital@1&family=Rubik+Dirt&family=Secular+One&display=swap");
+
+#bootMain {
+  width: auto;
+  height: 80%;
+  position: relative;
+  margin-left: 22%;
+  margin-top: -41%;
+}
+
+#bootSubMain {
+  /* border-top: 1px solid grey; */
+  padding-top: 2%;
+  position: absolute;
+  width: 100%;
+  height: 80%;
+}
+.bc {
+  font-size: 32px;
+  /* border-bottom: 1px solid grey; */
+  padding-bottom: 25px;
+  color: grey;
+  font-family: "Heebo", sans-serif;
+  font-weight: bold;
+  position: absolute;
+  left: 4.5%;
+  top: 8%;
+}
+
+.createBtn {
+  position: absolute;
+  left: 40%;
+  top: 24rem;
+}
+
+.createBtn1 {
+  position: absolute;
+  padding-right: 20px;
+}
+
+.createBtn1 a {
+  color: rgb(25, 118, 210);
+  text-decoration: none;
+  font-weight: 500;
+}
+.createBtn2 {
+  position: absolute;
+  left: 100px;
+  padding-right: 20px;
+}
+
+.createBtn12 {
+  position: absolute;
+  border: none;
+  background-color: rgb(25, 118, 210);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.createBtn12:hover {
+  background-color: rgb(11, 93, 176);
+  cursor: pointer;
+}
+/*!========================================================================================= */
+#mainBlock11 {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(245, 244, 248, 0.333);
+}
+
+#articleBlock11 {
+  position: absolute;
+  top: 78px;
+  left: 685px;
+  /* width: 370px;
+  height: auto; */
+  padding: 25px 50px 50px 50px;
+  /* border-radius: 15px; */
+  /* border: 1.5px solid rgba(108, 107, 107, 0.877); */
+  background-color: white;
+}
+.formGroup {
+  padding: 10px;
+}
+#articleBlock11 form div label {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  color: rgb(62, 62, 62);
+  padding: 7px;
+  margin-left: 10px;
+}
+
+#btn11 {
+  position: absolute;
+  left: 60px;
+  padding: 10px 20px;
+  width: 250px;
+  color: aliceblue;
+  font-weight: normal;
+  border-radius: 5px;
+  font-size: 16px;
+  border: none;
+  background-color: rgb(66, 39, 164);
+}
+
+#btn11:hover {
+  background-color: rgb(56, 18, 196);
+  cursor: pointer;
+}
+#articleBlock11 form div input {
+  height: 30px;
+  margin: auto;
+  width: 250px;
+  border: none;
+  border-bottom: 1px solid rgb(117, 117, 117);
+  padding-left: 10px;
+  font-size: 16px;
+}
+
+.careersOpt {
+  width: 250px;
+  padding: 8px;
+  font-size: 15px;
+  font-family: "Heebo", sans-serif;
+  color: rgb(115, 115, 115);
+  border-radius: 4px;
+}
+
+#mainBlock11 h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(78, 78, 78);
+  font-size: 26px;
+  padding-bottom: 25px;
+}
+
+.cancelBtn1 {
+  position: absolute;
+  left: 88%;
+  top: 2%;
+  border: none;
+  border-radius: 100%;
+  padding: 8px;
+  /* margin-left: 60%; */
+  /* margin-bottom: 6%; */
+  color: blue;
+  background-color: white;
+}
+.cancelBtn1:hover {
+  background-color: rgb(238, 238, 238);
+}
+
+/* !=======Create Courses======== */
+.CreateCourse {
+  width: auto;
+  height: 80%;
+  position: relative;
+  margin-left: 22%;
+  margin-top: -42%;
+}
+
+.bc1 {
+  font-size: 32px;
+  /* border-bottom: 1px solid grey; */
+  padding-bottom: 25px;
+  color: grey;
+  font-family: "Heebo", sans-serif;
+  font-weight: bold;
+  position: absolute;
+  left: 4.5%;
+  top: 8%;
+}
+
+.artCC {
+  padding-top: 2%;
+  position: absolute;
+  width: 100%;
+  height: 80%;
+}
+
+.createBtn22 {
+  position: absolute;
+  border: none;
+  background-color: rgb(25, 118, 210);
+  color: white;
+  padding: 9px 20px;
+  border-radius: 5px;
+  font-size: 15px;
+  text-transform: uppercase;
+  width: 150px;
+}
+
+.createBtn22:hover {
+  background-color: rgb(11, 93, 176);
+  cursor: pointer;
+}

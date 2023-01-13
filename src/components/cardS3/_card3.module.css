@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alegreya&family=Alfa+Slab+One&family=Barlow&family=Carter+One&family=Heebo:wght@300;800&family=Lato&family=Monoton&family=Montserrat:wght@400;500&family=Orbitron:wght@500&family=Oswald:wght@300&family=Philosopher:ital@1&family=Rubik+Dirt&family=Secular+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alegreya&family=Alfa+Slab+One&family=Barlow&family=Carter+One&family=Heebo:wght@300;400;800&family=Lato&family=Monoton&family=Montserrat:wght@400;500&family=Orbitron:wght@500&family=Oswald:wght@300&family=Philosopher:ital@1&family=Rubik+Dirt&family=Secular+One&display=swap');
+
+.cardSec1{
+      width: 100%;
+      height: auto;
+      background-color: rgb(245,244,248);
+      padding-bottom: 3%;
+      border-bottom: 0.2px solid rgb(183, 183, 183);
+}
+.cardSec1 h2{
+        font-family: "Heebo", sans-serif;
+        font-weight: normal;
+        padding-top: 50px;
+        padding-left: 14.3%;
+        padding-bottom: 15px;
+
+}
+.cardSub1{
+      width: 75%;
+      margin: auto;
+      display: flex;
+      justify-content: space-evenly;
+}
+
+.courseName{
+      font-size: 18px;
+      text-decoration: none;
+      color: black;
+        font-family: "Heebo", sans-serif;
+}
+
+.courseName:hover{
+color: rgb(109, 66, 211);
+}
+
+.avatar {
+  border: none;
+  font-size: 18px;
+  font-weight: normal;
+  background-color: white;
+  margin-left: 80px;
+  padding-top: 4px;
+}
+
+.avatar:hover {
+color: grey;
+cursor: pointer;
+}
